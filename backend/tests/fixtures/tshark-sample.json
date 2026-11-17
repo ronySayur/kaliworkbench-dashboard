@@ -1,0 +1,9 @@
+[
+  {
+    "layers": {
+      "http": {
+        "http.file_data": "authorization=Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ=="
+      }
+    }
+  }
+]

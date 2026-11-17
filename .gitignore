@@ -1,0 +1,36 @@
+# dependencies
+node_modules/
+frontend/node_modules/
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+backend/.venv/
+.pytest_cache/
+
+# data/runtime
+backend/data/
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+
+# build/output
+dist/
+build/
+frontend/dist/
+
+# env/editor/os
+.DS_Store
+*.log
+.idea/
+
+# local tooling
+.commandcode/
+config.bat
