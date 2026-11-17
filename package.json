@@ -1,0 +1,17 @@
+{
+  "name": "kaliworkbench",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev:frontend": "node init && npm run dev --workspace frontend",
+    "dev:backend": "node init && cd backend && python3 -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8000",
+    "build:frontend": "node init && npm run build --workspace frontend",
+    "typecheck:frontend": "npm run typecheck --workspace frontend",
+    "lint:frontend": "npm run lint --workspace frontend",
+    "test:frontend": "npm run test --workspace frontend",
+    "test:backend": "cd backend && .venv/bin/pytest -q",
+    "test": "npm run test:frontend && npm run test:backend"
+  }
+}

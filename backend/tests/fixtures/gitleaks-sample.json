@@ -1,0 +1,8 @@
+[
+  {
+    "RuleID": "generic-api-key",
+    "Description": "Hardcoded key",
+    "Severity": "high",
+    "Fingerprint": "demo-1"
+  }
+]
